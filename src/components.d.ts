@@ -5,8 +5,10 @@
 declare module 'vue' {
   export interface GlobalComponents {
     Counter: typeof import('./components/Counter.vue')['default']
+    FileSystemAccessApi: typeof import('./components/web-api/FileSystemAccessApi.vue')['default']
     Footer: typeof import('./components/Footer.vue')['default']
     README: typeof import('./components/README.md')['default']
+    ShareApi: typeof import('./components/web-api/ShareApi.vue')['default']
   }
 }
 
