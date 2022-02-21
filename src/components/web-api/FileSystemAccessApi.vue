@@ -40,7 +40,7 @@ const pickerOpts = {
 }
 async function getTheFile() {
   // open file picker
-  ;[fileHandle] = await window.showOpenFilePicker(pickerOpts)
+  [fileHandle] = await window.showOpenFilePicker(pickerOpts)
 
   // get file contents
   const fileData = await fileHandle.getFile()
